@@ -21,7 +21,7 @@ Each room sits in its own folder with a focused README covering:
 | # | Room | Focus Area | Status |
 |---|------|-----------|--------|
 | 01 | [Introduction to SIEM](./01-introduction-to-siem/) | SIEM Fundamentals, Log Sources, Alerting | Complete |
-| 02 | Splunk: The Basics | Splunk SPL, Search and Reporting | In progress |
+| 02 | [Splunk: The Basics](./02-splunk-the-basics/) | Splunk Architecture, SPL, Data Ingestion | Complete |
 | 03 | Investigating with ELK | ELK Stack, KQL, Log Analysis | In progress |
 
 More rooms added as I progress through the SOC Level 1 path.
@@ -29,10 +29,11 @@ More rooms added as I progress through the SOC Level 1 path.
 ## Skills Index
 
 - **SIEM Platforms:** Splunk, ELK Stack
-- **Log Analysis:** Windows Event Logs, Linux syslog, Apache, Sysmon
+- **Log Analysis:** Windows Event Logs, Linux syslog, Apache, Sysmon, VPN logs
 - **Detection Engineering:** Rule writing, alert tuning, false positive analysis
+- **Query Languages:** SPL (Splunk), working towards KQL (ELK/Sentinel)
 - **Frameworks:** MITRE ATT&CK, Cyber Kill Chain
-- **Concepts:** Log normalisation, correlation, alert triage, incident investigation
+- **Concepts:** Log normalisation, correlation, alert triage, incident investigation, index management
 
 ## Certifications
 
